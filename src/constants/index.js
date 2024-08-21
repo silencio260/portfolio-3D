@@ -13,6 +13,7 @@ import {
     nodejs,
     mongodb,
     git,
+    github,
     figma,
     docker,
     meta,
@@ -54,7 +55,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Flutter Developer",
       icon: creator,
     },
   ];
@@ -116,55 +117,53 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Engineer Intern",
+      company_name: "NITDA",
+      icon: github,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Dec 2023 - Current",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Possess a strong foundation in machine learning and its applications. Actively contributed to the development of a robust attendance system utilizing advanced machine learning techniques.",
+        "Collaborated effectively within a team to design, implement, and test machine learning models.  Leveraged Python and relevant libraries (TensorFlow, OpenCV) to build and optimize the attendance  system. Demonstrated proficiency in data preprocessing, feature engineering, and model evaluation.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Developer",
+      company_name: "Malead Technologies",
+      icon: github,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sep 2023 - Jan 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Developed a scalable dashboard solutions for managing the clients complex trading transactions and visualizing the monthly returns.",
+        "Worked on front-end (Svelte.js) and back-end (Node.js, Express, Postgres, Prisma, TypeScript).",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Software Engineer",
+      company_name: "Freelance",
+      icon: github,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Research, developed and optimized complex algorithms for Analyzing financial markets and executing rules based strategy.",
+        "Verified the viability of proposed strategies by analyzing, back testing and optimizing performance (using Python, MQL5 and prinescript).",
+        " Developed automated algorithms for executing, monitoring and managing active trades.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Full Stack Developer",
+      company_name: "BuzzKarma",
+      icon: github,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "March 2022 - December 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a make money online application with Flutter for Android",
+        "Worked on the User management system / Admin panel with React.",
+        "Built the back-end (Node.js, Express, MongoDB, Redis.",
+        "Achieved an 80% user satisfaction rate by troubleshooting technological.",
       ],
     },
   ];
@@ -175,7 +174,7 @@ import {
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
-      company: "Acme Co",
+      company: "GenRevibes",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
@@ -183,7 +182,7 @@ import {
         "I've never met a web developer who truly cares about their clients' success like Rick does.",
       name: "Chris Brown",
       designation: "COO",
-      company: "DEF Corp",
+      company: "BuzzKarma",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
@@ -191,14 +190,14 @@ import {
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
-      company: "456 Enterprises",
+      company: "NCAIR",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "AI Summarizer",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -219,7 +218,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Imaginify",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -240,7 +239,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Automated Price Tracker",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
