@@ -30,6 +30,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import price_wise from "./price_wise.png";
+import summerizer from "./summerizer.png";
+import car_hub from "./car_hub.png";
+import imaginify from "./imaginify.png";
+import profile from "./profile.jpg";
+
+
 export {
   logo,
   backend,
@@ -59,4 +66,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  price_wise,
+  summerizer,
+  car_hub,
+  imaginify,
+  profile,
+  
 };

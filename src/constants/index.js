@@ -24,6 +24,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    price_wise,
+    summerizer,
+    car_hub,
+    imaginify,
+    profile
   } from "../assets";
   
   export const navLinks = [
@@ -171,42 +176,42 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
+        "I thought it was impossible to make a website as beautiful as our product, but Faruq proved me wrong.",
+      name: "Abdul",
+      designation: "Lead Developer",
       company: "GenRevibes",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: 'https://th.bing.com/th/id/OIP.mrOfkJb-O0orq_OK7B-pQAHaHa?rs=1&pid=ImgDetMain',
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "BuzzKarma",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "I've never met a web developer who truly cares about their clients' success like Faruq does.",
+      name: "Tunde",
       designation: "CTO",
-      company: "NCAIR",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      company: "BuzzKarma",
+      image: 'https://th.bing.com/th/id/OIP.mrOfkJb-O0orq_OK7B-pQAHaHa?rs=1&pid=ImgDetMain',
+    },
+    {
+      testimonial:
+        "After Faruq optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Limzy",
+      designation: "CTO",
+      company: "Maleed",
+      image: 'https://th.bing.com/th/id/OIP.mrOfkJb-O0orq_OK7B-pQAHaHa?rs=1&pid=ImgDetMain',
     },
   ];
   
   const projects = [
     {
-      name: "AI Summarizer",
+      name: "AI Article Summarizer",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "AI Summarizer is an intelligent tool designed to quickly condense long articles into concise summaries. Using advanced natural language processing, it extracts key points and insights, saving users time while retaining essential information. Ideal for researchers, students, and professionals looking to digest content efficiently.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
@@ -214,13 +219,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: summerizer,
+      source_code_link: "https://github.com/silencio260/ai-summarizer",
     },
     {
       name: "Imaginify",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Imaginify is an AI-powered SaaS platform that allows users to effortlessly transform and modify images with advanced tools. Whether resizing, enhancing, or applying creative effects, Imaginify delivers fast, high-quality results, making it ideal for designers, marketers, and creatives looking to streamline their image editing workflow.",
       tags: [
         {
           name: "react",
@@ -235,13 +240,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: imaginify,
+      source_code_link: "https://github.com/silencio260/imaginify",
     },
     {
-      name: "Automated Price Tracker",
+      name: "Price Wise",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Price Wise is a web-based price tracker that scrapes and monitors online prices across multiple retailers. With real-time alerts and detailed price history, Price Wise helps users find the best deals, track price drops, and make informed purchasing decisions with ease. Perfect for savvy shoppers and bargain hunters.",
       tags: [
         {
           name: "nextjs",
@@ -252,12 +257,33 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "typescript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: price_wise,
+      source_code_link: "https://github.com/silencio260/pricewise-web-scraper",
+    },
+    {
+      name: "Price Wise",
+      description:
+        "Car Hub is a comprehensive platform that simplifies finding, booking, and renting cars. Users can browse a wide range of vehicles, compare prices, and make reservations seamlessly, all in one place. With flexible rental options and user-friendly search features, Car Hub makes car renting fast, convenient, and hassle-free. Perfect for travelers and locals alike.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        // {
+        //   name: "",
+        //   color: "green-text-gradient",
+        // },
+        {
+          name: "typescript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/silencio260/car-showcase",
     },
   ];
   
